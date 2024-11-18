@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Event Registration">8367e3ae836116101b9471a6feaad300</sc_cat_item>
-        <sc_catalog display_value="Events">32e8e32283a116101b9471a6feaad37a</sc_catalog>
+        <sc_cat_item display_value="RegistrationForm">76b306f283ad16101b9471a6feaad323</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-02 01:36:13</sys_created_on>
-        <sys_id>5bb8efee836116101b9471a6feaad372</sys_id>
+        <sys_created_on>2024-11-02 12:54:31</sys_created_on>
+        <sys_id>4654023683ad16101b9471a6feaad36e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Events.Event Registration</sys_name>
+        <sys_name>Service Catalog.RegistrationForm</sys_name>
         <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_5bb8efee836116101b9471a6feaad372</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_4654023683ad16101b9471a6feaad36e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-02 01:36:13</sys_updated_on>
+        <sys_updated_on>2024-11-02 12:54:31</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>

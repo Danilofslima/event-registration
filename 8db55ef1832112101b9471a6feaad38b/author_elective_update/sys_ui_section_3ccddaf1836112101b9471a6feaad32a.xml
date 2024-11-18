@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="3ccddaf1836112101b9471a6feaad32a" sys_domain="global" table="x_1488662_event_re_registration" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1488662_event_re_registration</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-30 12:11:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ccddaf1836112101b9471a6feaad32a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1488662_event_re_registration</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+            <sys_update_name>sys_ui_section_3ccddaf1836112101b9471a6feaad32a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-30 12:11:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</application>
+        <file_path/>
+        <instance_id>cdc311e51b850a14e84d2f8dee4bcbf2</instance_id>
+        <instance_name>dev245425</instance_name>
+        <name>sys_ui_section_3ccddaf1836112101b9471a6feaad32a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="3ccddaf1836112101b9471a6feaad32a" sys_domain="global" table="x_1488662_event_re_registration" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1488662_event_re_registration</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 12:11:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3ccddaf1836112101b9471a6feaad32a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1488662_event_re_registration</sys_name><sys_overrides/><sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package><sys_policy/><sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope><sys_update_name>sys_ui_section_3ccddaf1836112101b9471a6feaad32a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 12:11:39</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2046967798</payload_hash>
+        <record_name>Registration</record_name>
+        <reverted_from/>
+        <source>c9b55679832112101b9471a6feaad366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:30:44</sys_created_on>
+        <sys_id>d8226639836112101b9471a6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192dd6829500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:30:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>90226639c5611210903836fa27597a79</update_guid>
+        <update_guid_history>90226639c5611210903836fa27597a79:2046967798,49cddaf1e0611210873722f8566ab56a:-1003420914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:31:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0ff9eff2146a42fd832f2dc88b0c44b9</sys_id>
+        <sys_metadata>3ccddaf1836112101b9471a6feaad32a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_parent display_value="Registration">9ffa5efd832112101b9471a6feaad3a4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">0478e907908e4eefa9e16397d57b28f9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3ccddaf1836112101b9471a6feaad32a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3ccddaf1836112101b9471a6feaad32a">d8226639836112101b9471a6feaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:31:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

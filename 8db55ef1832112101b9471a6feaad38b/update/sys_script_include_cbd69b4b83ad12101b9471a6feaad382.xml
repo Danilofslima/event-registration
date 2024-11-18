@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1488662_event_re.AjaxFunctions2</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AjaxFunctions2</name>
+        <script><![CDATA[var AjaxFunctions2 = Class.create();
+AjaxFunctions2.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    checkUserRequest: function() {
+        var email = this.getParameter('sysparm_email');
+        var vaga = this.getParameter('sysparm_vaga'); // Assuming this is a name, confirm the field type and adjust if needed
+
+        var requests = [];
+
+        var ritm = new GlideRecord('x_1488662_event_re_registration');
+        ritm.addQuery('email', email);
+        ritm.addQuery('event', vaga); // Ensure event.name is indexed, or use event Sys ID if available
+        ritm.query();
+
+        while (ritm.next()) {
+            requests.push(ritm.number.toString());
+        }
+
+        if (requests.length > 0) {
+            return requests.join(',');
+        } else {
+            return 'none';
+        }
+    },
+
+    type: 'AjaxFunctions2'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 13:47:00</sys_created_on>
+        <sys_id>cbd69b4b83ad12101b9471a6feaad382</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>AjaxFunctions2</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_update_name>sys_script_include_cbd69b4b83ad12101b9471a6feaad382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 14:34:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

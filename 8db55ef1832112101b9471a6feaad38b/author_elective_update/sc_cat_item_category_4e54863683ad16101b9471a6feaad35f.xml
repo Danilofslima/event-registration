@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="RegistrationForm">76b306f283ad16101b9471a6feaad323</sc_cat_item>
+        <sc_category display_value="Events ">65496f2283a116101b9471a6feaad338</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 12:54:31</sys_created_on>
+        <sys_id>4e54863683ad16101b9471a6feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events .RegistrationForm</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_update_name>sc_cat_item_category_4e54863683ad16101b9471a6feaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 12:54:31</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</application>
+        <file_path/>
+        <instance_id>cdc311e51b850a14e84d2f8dee4bcbf2</instance_id>
+        <instance_name>dev245425</instance_name>
+        <name>sc_cat_item_category_4e54863683ad16101b9471a6feaad35f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="RegistrationForm">76b306f283ad16101b9471a6feaad323</sc_cat_item><sc_category display_value="Events ">65496f2283a116101b9471a6feaad338</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-02 12:54:31</sys_created_on><sys_id>4e54863683ad16101b9471a6feaad35f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Events .RegistrationForm</sys_name><sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package><sys_policy/><sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope><sys_update_name>sc_cat_item_category_4e54863683ad16101b9471a6feaad35f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-02 12:54:31</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-311519952</payload_hash>
+        <record_name>Events .RegistrationForm</record_name>
+        <reverted_from/>
+        <source>c9b55679832112101b9471a6feaad366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 12:54:31</sys_created_on>
+        <sys_id>4a54863683ad16101b9471a6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ecf1072d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 12:54:31</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>4e5486363aad1610a00872305adf6162</update_guid>
+        <update_guid_history>4e5486363aad1610a00872305adf6162:-311519952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Events .RegistrationForm">4f72e90b836512101b9471a6feaad37b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 05:05:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2baa81dba5c04bd4ac3bef75b17a6a10</sys_id>
+        <sys_metadata>4e54863683ad16101b9471a6feaad35f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events .RegistrationForm</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">0478e907908e4eefa9e16397d57b28f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_4e54863683ad16101b9471a6feaad35f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_4e54863683ad16101b9471a6feaad35f">4a54863683ad16101b9471a6feaad363</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 05:05:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

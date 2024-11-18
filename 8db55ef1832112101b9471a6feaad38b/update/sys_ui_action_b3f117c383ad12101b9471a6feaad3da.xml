@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Approve </name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[(function() {
+    var loggedInUser = gs.getUserID(); // Get the logged-in user
+    var approverFound = false;  // Flag to track if the user is found in the approvers list
+
+
+    var sysApp = new GlideRecord('sysapproval_approver');
+    sysApp.addQuery('sysapproval', current.sys_id);  // Query for the current approval record
+    sysApp.query();
+
+
+    // Check if the logged-in user is in the sysapproval_approver list
+    while (sysApp.next()) {
+        if (sysApp.approver == loggedInUser) {
+            approverFound = true;  // Mark the user as found
+            sysApp.state = "approved";  // Approve the record
+            sysApp.update();  // Save the approval state
+            action.setRedirectURL(current);  // Redirect to the current record
+            break;
+        }
+    }
+
+
+    // If the user was not found in the approvers list, show a message and abort
+    if (!approverFound) {
+        gs.addErrorMessage('You are not listed as an approver for this record.');
+        action.setAbortAction(true);  // Abort the action to prevent any further changes
+        action.setRedirectURL(current);
+    }
+
+
+})();
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 13:14:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3f117c383ad12101b9471a6feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_update_name>sys_ui_action_b3f117c383ad12101b9471a6feaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 13:14:59</sys_updated_on>
+        <table>x_1488662_event_re_registration</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

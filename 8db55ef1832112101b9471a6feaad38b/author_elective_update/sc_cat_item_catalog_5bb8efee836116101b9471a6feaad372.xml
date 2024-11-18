@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Event Registration">8367e3ae836116101b9471a6feaad300</sc_cat_item>
+        <sc_catalog display_value="Events">32e8e32283a116101b9471a6feaad37a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 01:36:13</sys_created_on>
+        <sys_id>5bb8efee836116101b9471a6feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events.Event Registration</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5bb8efee836116101b9471a6feaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 01:36:13</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</application>
+        <file_path/>
+        <instance_id>cdc311e51b850a14e84d2f8dee4bcbf2</instance_id>
+        <instance_name>dev245425</instance_name>
+        <name>sc_cat_item_catalog_5bb8efee836116101b9471a6feaad372</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Event Registration">8367e3ae836116101b9471a6feaad300</sc_cat_item><sc_catalog display_value="Events">32e8e32283a116101b9471a6feaad37a</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-02 01:36:13</sys_created_on><sys_id>5bb8efee836116101b9471a6feaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Events.Event Registration</sys_name><sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package><sys_policy/><sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope><sys_update_name>sc_cat_item_catalog_5bb8efee836116101b9471a6feaad372</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-02 01:36:13</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1228095392</payload_hash>
+        <record_name>Events.Event Registration</record_name>
+        <reverted_from/>
+        <source>c9b55679832112101b9471a6feaad366</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 01:36:13</sys_created_on>
+        <sys_id>f919632283a116101b9471a6feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ea8403c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 01:36:13</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>fd196322e2a11610f41d964909580c33</update_guid>
+        <update_guid_history>fd196322e2a11610f41d964909580c33:-1228095392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Events.Event Registration">6fde6f2a83a116101b9471a6feaad3e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 02:01:27</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>042b6788a8664ff4802ae9634bc84e44</sys_id>
+        <sys_metadata>5bb8efee836116101b9471a6feaad372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events.Event Registration</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_parent display_value="Event Registration">8367e3ae836116101b9471a6feaad300</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">0478e907908e4eefa9e16397d57b28f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5bb8efee836116101b9471a6feaad372</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5bb8efee836116101b9471a6feaad372">f919632283a116101b9471a6feaad334</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 02:01:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

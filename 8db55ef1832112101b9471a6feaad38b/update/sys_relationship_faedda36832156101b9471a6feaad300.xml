@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1488662_event_re_event</basic_apply_to>
+        <basic_query_from>x_1488662_event_re_registration</basic_query_from>
+        <insert_callback/>
+        <name>Assigned to me</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// current.addQuery('state', 2);
+	// current.addQuery('event', parent.name);
+	// current.addQuery('name', "TechNow");
+	
+	// current.addQuery('requested_for_employee', parent.requested_for_employee)
+(function refineQuery(current, parent) {
+
+var arr = [];
+var gr = new GlideRecord('x_1488662_event_re_registration');
+gr.addQuery('assigned_to', gs.getUserID()); // Use user sys_id for accurate filtering
+// gr.addQuery('state', 2);
+gr.query();
+
+while (gr.next()) {
+   arr.push(gr.getUniqueValue());
+}
+
+current.addEncodedQuery('sys_idIN'+arr.join(','));
+
+})(current, parent);
+
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 14:46:15</sys_created_on>
+        <sys_id>faedda36832156101b9471a6feaad300</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assigned to me</sys_name>
+        <sys_package display_value="Event Registration" source="x_1488662_event_re">8db55ef1832112101b9471a6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8db55ef1832112101b9471a6feaad38b</sys_scope>
+        <sys_update_name>sys_relationship_faedda36832156101b9471a6feaad300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 14:55:38</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=faedda36832156101b9471a6feaad300"/>
+</record_update>
